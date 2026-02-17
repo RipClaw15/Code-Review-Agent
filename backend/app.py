@@ -22,7 +22,7 @@ class CodeReviewState(TypedDict):
 class SimpleCodeReviewAgent:
     def __init__(self):
         self.llm = ChatOllama(
-            model="llama2:latest",
+            model="codellama:latest",
             temperature=0.3
         )
 
