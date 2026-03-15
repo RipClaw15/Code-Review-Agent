@@ -6,7 +6,7 @@ The frontend is built with **Next.js** and connects to the backend for a smooth 
 
 ---
 
-## 🚀 Features
+## Features
 
 - Upload code via API and receive:
   - Initial analysis of purpose and structure
@@ -17,7 +17,7 @@ The frontend is built with **Next.js** and connects to the backend for a smooth 
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **Backend:**
 
@@ -42,7 +42,7 @@ The frontend is built with **Next.js** and connects to the backend for a smooth 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 CodeReviewAgent/
 ├── backend/
@@ -58,7 +58,7 @@ CodeReviewAgent/
 
 ---
 
-## ⚡ Getting Started
+## Getting Started
 
 ### Backend
 
@@ -96,7 +96,7 @@ Run the development server:
 npm run dev
 The frontend will run at: http://localhost:3000
 
-🔧 Usage
+Usage
 Send a POST request to:
 
 POST http://127.0.0.1:8000/review
@@ -112,14 +112,14 @@ Response:
   "issues": ["- issue1", "- issue2"],
   "report": "Final code review report"
 }
-⚠️ Notes
+Notes
 Make sure Ollama is installed and running for LLM inference.
 
 .env files can be used for API keys or environment variables.
 
 .next/ and node_modules/ are ignored in Git and should not be committed.
 
-💡 Future Improvements
+Future Improvements
 Streaming responses for faster reviews
 
 Web UI for drag-and-drop code review
@@ -128,5 +128,5 @@ CI/CD integration for automatic PR analysis
 
 Support for multiple programming languages
 
-📄 License
+License
 MIT License
